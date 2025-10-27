@@ -1,8 +1,8 @@
-algoritmo "Tipo de"
-// Função :
-// Autor :
+algoritmo "semnome"
+// FunÃ§Ã£o : Calculadora
+// Autor : Matheus
 // Data : 22/09/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
  
 var
 n1, n2 : inteiro
@@ -15,7 +15,8 @@ leia (n1)
 escreva ("Digite seu segundo numero :")
 leia (n2)
 
-escreval (" A soma é :" , n1 + n2)
+escreval (" A soma Ã© :" , n1 + n2)  //ele soma
 
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 fimalgoritmo
+
