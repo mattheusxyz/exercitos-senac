@@ -1,8 +1,8 @@
 algoritmo "SOMA, SUB, MULTI, DIVI"
-// Função : SOMAR, SUBTRAIR, DIVIDIR, MULTIPLICAR
+// FunÃ§Ã£o : SOMAR, SUBTRAIR, DIVIDIR, MULTIPLICAR
 // Autor : Matheus
 // Data : 22/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 n1, n2 : inteiro
 
@@ -14,10 +14,10 @@ leia (n1)
 escreva ("agora digite seu segundo numero :")
 leia (n2)
 
-escreval (" A soma é :",  n1 + n2)
-escreval (" A subtraçao é :" , n1 - n2)
-escreval (" A multiplicaçao é :" , n1 * n2)
-escreval (" A divisao é :" , n1 / n2)
+escreval (" A soma Ã© :",  n1 + n2)
+escreval (" A subtraÃ§ao Ã© :" , n1 - n2)
+escreval (" A multiplicaÃ§ao Ã© :" , n1 * n2)
+escreval (" A divisao Ã© :" , n1 / n2)
 
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 fimalgoritmo
