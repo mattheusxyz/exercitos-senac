@@ -1,29 +1,44 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o : mostar o mes correspondente ao numero
 // Autor :
-// Data : 17/10/2025
-// Seção de Declarações 
+// Data : 22/10/2025
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
+
 var
-meses : vetor [1..12] de caractere
-i : inteiro
+mes: inteiro
 
 inicio
-// Seção de Comandos
-meses [1] <- "Janeiro"
-meses [2] <- "Fevereiro"
-meses [3] <- "Março"
-meses [4] <- "Abril"
-meses [5] <- "Maio"
-meses [6] <- "Junho"
-meses [7] <- "Julho"
-meses [8] <- "Agosto"
-meses [9] <- "Setembro"
-meses [10] <- "Outubro"
-meses [11] <- "Novembro"
-meses [12] <- "Dezembro"
+// SeÃ§Ã£o de Comandos
 
-para i de 1 ate 12 faca
-escreval ("MÊS " , i, "; ", meses [i])
-fimpara
+escreval("Digite o nÃºmero do mÃªs: ")
+leia(mes)
+escolha mes
+caso 1
+    escreval("Janeiro")
+caso 2
+    escreval("Fevereiro")
+caso 3
+    escreval("MarÃ§o")
+caso 4
+    escreval("Abril")
+caso 5
+    escreval("Maio")
+caso 6
+    escreval("Junho")
+caso 7
+    escreval("Julho")
+caso 8
+    escreval("Agosto")
+caso 9
+    escreval("Setembro")
+caso 10
+    escreval("Outubro")
+caso 11
+    escreval("Novembro")
+caso 12
+    escreval("Dezembro")
+outrocaso
+    escreval("MÃªs invÃ¡lido!")
+fimescolha
 
 fimalgoritmo
